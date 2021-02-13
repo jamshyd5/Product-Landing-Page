@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+body{
+	font-size: 14pt;
+	font-family: Courier New;
+}
+#nav-bar{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#nav-bar a{
+	float: right;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#nav-bar a:hover{
+	background-color: red;
+}
+#nav-bar li{
+	list-style: none;
+}
+#header-img{
+	float: left;
+	padding-top: 5px;
+	height: 80px;
+	padding-right: 20px;
+
+}
+#how-it-works{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+	padding-bottom: 50px
+}
+.head{
+	font-size: 20pt;
+	font-family: Courier New;
+	font-weight: bold;
+	margin-top: 200px;
+	text-align: center;
+}
+.logo-name{
+	font-size: 30pt;
+	font-family: Butcherman;
+	margin-top: -1px;
+}
+.first{
+	border: solid;
+	width: 20%;
+	padding: 20px;
+	float: left;
+}
+.second{
+	border: solid;
+	width: 20%;
+	padding: 20px;
+	float: left;
+	margin-left: 8%;
+}
+.third{
+	border: solid;
+	width: 20%;
+	padding: 20px;
+	float: left;
+	margin-left: 8%;
+}
+
+.row{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+}
+button{
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 40%;
+}
+button:hover{
+	background-color: red;
+}
+#description{
+	border: solid;
+	margin-bottom: 50px;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+#form{
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#header{
+	position: fixed;
+	top: 0;
+	background-color: #FFDAB9;
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+.logo-name:hover{
+	color: red;
+}
+.nav-link{
+	font-weight: bold;
+	font-size: 15pt;
+	color: black;
+}
+
+.names{
+	font-size: 20pt;
+	font-family: Courier New;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.names1{
+	font-size: 20pt;
+	font-family: Courier New;
+	font-weight: bold;
+	text-align: center;
+}
+
+#email{
+	border-radius: 50px;
+	margin-left: 50px;
+	padding-left: 10px;
+	width: 50%;
+	height: 30px;
+}
+#submit{
+	padding: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-weight: bold;
+}
+#submit:hover{
+	background-color: red;
+}
+
+.heads{
+	text-align: center;
+	font-weight: bold;
+	background-color: #FFDAB9;
+	padding: 20px;
+	font-size: 17pt;
+}
+
+.money{
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+}
+.money:hover{
+	color: red;
+}
+.red{
+	font-family: Butcherman;
+	display: inline-block;
+	font-size: 20pt;
+}
+.red:hover{
+	color: red;
+}
+
+@media only screen and (max-width: 500px){
+	#header{
+		background-color: #FFEFD5;
+	}
+	.heads{
+		background-color: #FFEFD5;
+	}
+}
